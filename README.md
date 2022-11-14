@@ -1,7 +1,22 @@
-# FRONT-END
+# Trybe
 
-Nesse módulo aprendi sobre `formulários HTML`, `CSS Flexbox` e a como utilizar bibliotecas externas de JavaScript. Na sequência aprendi a criar estilos de forma responsiva, com foco em diferentes tamanhos de tela. E então aprendi sobre as principais funcionalidades da última versão do `JavaScript`, o `ES6`. Na última parte, aprendi a utilizar o framework `React` para criar aplicações de front-end que se conectam com APIs.
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[SeuNomeAqui](LinkDoSeuLinkedinAqui)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
-Com isso me tornei capaz de criar páginas com formulários, estilizadas de forma responsiva, utilizando frameworks e bibliotecas externas para a estilização e validação de dados. Sei agora utilizar as principais funcionalidades do `ECMAScript 6`, a mais recente versão do `JavaScript`. E também sou capaz de criar aplicações completas de front-end utilizando o framework `React`.
+_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
-Tendo isso em mente, esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo do módulo de `Front-end` do curso da [Trybe](https://www.betrybe.com/). 
+O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+
+## Fundamentos do Desenvolvimento Web :white_check_mark:
+
+##### Bloco 1: Introdução - Unix & Shell
+
+- [ ] 1-3: _Unix & Shell- Part 1_
+- [ ] 1-4: _Unix & Shell- Part 2_
+
+##### Bloco 2: Git & GitHub
+
+- [ ] 2-1: _O que é e para que serve?_
+- [ ] 2-2: _Entendendo os comandos_
+- [ ] 2-3: _Internet - Entendendo como ela funciona_
+
+[etc...]
