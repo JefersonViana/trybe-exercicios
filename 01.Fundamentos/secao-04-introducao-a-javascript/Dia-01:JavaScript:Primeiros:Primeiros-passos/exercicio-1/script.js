@@ -97,6 +97,18 @@
 
 // parte 5 //
 
-const anguloA = 60;
-const anguloB = 60;
-const anguloC = 60;
+// const anguloA = 60;
+// const anguloB = 60;
+// const anguloC = 5;
+
+// if (anguloA + anguloB + anguloC === 180) {
+//   console.log(true);
+
+// } else if ((anguloA / 2) % 2 > 0 || (anguloB / 2) % 2 > 0 || (anguloC / 2) % 2 > 0) {
+// console.log('Erro!');
+
+// } else {
+//   console.log(false);
+// }
+
+// concluido //
