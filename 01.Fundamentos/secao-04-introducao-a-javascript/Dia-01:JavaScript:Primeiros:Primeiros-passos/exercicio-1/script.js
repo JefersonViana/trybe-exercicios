@@ -76,6 +76,20 @@
 
 // parte - 4 //
 
+// let valorRecebido = 169;
 
+
+// if (valorRecebido > 0 && (valorRecebido / 2) % 2 === 0) {
+//   console.log('positive');
+
+// } else if (valorRecebido === 2) {
+//   console.log('positive');
+  
+// } else if (valorRecebido > 0 && (valorRecebido / 2) % 2 > 0) {
+//   console.log('negative');
+
+// }else {
+//   console.log('zero');
+// }
 
 // concluido //
