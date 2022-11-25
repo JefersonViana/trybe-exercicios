@@ -36,39 +36,46 @@
 
 // parte - 3 //
 
-const value1 = 21;
-const value2 = 21;
-const value3 = 21;
+// const value1 = 1;
+// const value2 = 21;
+// const value3 = 21;
 
-if (value1 > value2 && value1 > value3 && value1 !== value2 && value1 !== value3) {
-  console.log(value1);
+// if (value1 > value2 && value1 > value3 && value1 !== value2 && value1 !== value3) {
+//   console.log(value1);
 
-} else if (value1 === value2 && value1 > value3) {
-  console.log('value1 ' + value1 + ' e ' + 'value2 ' + value2 + ' são iguas e maiores que o value3 que é ' + value3);
+// } else if (value1 === value2 && value1 > value3) {
+//   console.log('value1 ' + value1 + ' e ' + 'value2 ' + value2 + ' são iguas e maiores que o value3 que é ' + value3);
 
-}else if (value1 === value3 && value1 > value2) {
-  console.log('value1 ' + value1 + ' e ' + 'value3 ' + value3 + ' são iguais e maiores que o value2 que é ' + value2);
+// }else if (value1 === value3 && value1 > value2) {
+//   console.log('value1 ' + value1 + ' e ' + 'value3 ' + value3 + ' são iguais e maiores que o value2 que é ' + value2);
 
-} else if (value2 > value1 && value2 > value3 && value2 !== value1 && value2 !== value3) {
-  console.log(value2);
+// } else if (value2 > value1 && value2 > value3 && value2 !== value1 && value2 !== value3) {
+//   console.log(value2);
 
-} else if (value2 === value1 && value2 > value3) {
-  console.log('value2 ' + value2 + ' e ' + 'value1' + value1 + ' são iguas e maiores que o value3 que é ' + value3);
+// } else if (value2 === value1 && value2 > value3) {
+//   console.log('value2 ' + value2 + ' e ' + 'value1' + value1 + ' são iguas e maiores que o value3 que é ' + value3);
 
-}else if (value2 === value3 && value2 > value1) {
-  console.log('value2 ' + value2 + ' e ' + 'value3 ' + value3 + ' são iguais e maiores que o value1 que é ' + value1);
+// }else if (value2 === value3 && value2 > value1) {
+//   console.log('value2 ' + value2 + ' e ' + 'value3 ' + value3 + ' são iguais e maiores que o value1 que é ' + value1);
 
-}else if(value3 > value1 && value3 > value2) {
-  console.log(value3);
+// }else if(value3 > value1 && value3 > value2) {
+//   console.log(value3);
 
-} else if (value3 === value1 && value3 > value2) {
-  console.log('value3 ' + value3 + ' e ' + 'value1 ' + value1 + ' são iguas e maiores que o value2 que é ' + value2);
+// } else if (value3 === value1 && value3 > value2) {
+//   console.log('value3 ' + value3 + ' e ' + 'value1 ' + value1 + ' são iguas e maiores que o value2 que é ' + value2);
 
-} else if (value3 === value2 && value3 > value1) {
-  console.log('value3 ' + value3 + ' e ' + 'value2 ' + value2 + ' são iguas e maiores que o value1 que é ' + value1);
+// } else if (value3 === value2 && value3 > value1) {
+//   console.log('value3 ' + value3 + ' e ' + 'value2 ' + value2 + ' são iguas e maiores que o value1 que é ' + value1);
 
-} else {
-  console.log('Todos os valores são iguais');
-}
+// } else {
+//   console.log('Todos os valores são iguais');
+// }
+
+// concluido //
+
+
+// parte - 4 //
+
+
 
 // concluido //
