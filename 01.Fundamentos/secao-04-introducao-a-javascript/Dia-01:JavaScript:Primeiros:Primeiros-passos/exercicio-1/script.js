@@ -93,3 +93,10 @@
 // }
 
 // concluido //
+
+
+// parte 5 //
+
+const anguloA = 60;
+const anguloB = 60;
+const anguloC = 60;
