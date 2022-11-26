@@ -192,3 +192,24 @@
 // }
 
 // concluido //
+
+
+// parte 9 //
+
+const quantidadeDeProdutos = 1000;
+const custoDoProduto = 35;
+const impostoSobreOProduto = 25;
+const custoTotal = custoDoProduto + ((custoDoProduto * impostoSobreOProduto) / 100);
+const valorDeVenda = 50;
+const lucroPorProduto = valorDeVenda - custoTotal;
+const lucroDaEmpresa = lucroPorProduto * quantidadeDeProdutos;
+
+if (custoDoProduto < 0 || valorDeVenda < 0 || quantidadeDeProdutos < 0 || impostoSobreOProduto < 0) {
+  console.log('Erro!')
+} else {
+  console.log(lucroDaEmpresa);
+}
+
+// concluido //
+
+// parte 10 //
