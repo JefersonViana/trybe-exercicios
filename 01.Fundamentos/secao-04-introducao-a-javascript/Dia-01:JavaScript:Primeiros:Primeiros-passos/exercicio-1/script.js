@@ -84,7 +84,7 @@
 
 // } else if (valorRecebido === 2) {
 //   console.log('positive');
-  
+
 // } else if (valorRecebido > 0 && (valorRecebido / 2) % 2 > 0) {
 //   console.log('negative');
 
@@ -116,3 +116,36 @@
 
 // parte 6 //
 
+// let peca = 'toRre';
+// let pecaDeXadrez = peca.toLowerCase(peca);
+
+// switch (pecaDeXadrez) {
+//   case 'rei':
+//     console.log('vertical, horizontal e diagonal, porém apenas uma casa por vez');
+//     break;
+
+//   case 'rainha':
+//     console.log('vertical, horizontal e diagonal, quantas casas quiser, desde que estejam livres.');
+//     break;
+
+//   case 'torre':
+//     console.log('vertical e horizontal, quantas casas quiser');
+//     break;
+
+//   case 'bispo':
+//     console.log('diagonal, quantas casas quiser');
+//     break;
+
+//   case 'cavalo':
+//     console.log('Se movimenta em "L"');
+//     break;
+
+//   case 'peao':
+//     console.log('Move-se sempre uma casa para frente, exceto no primeiro movimento, quando pode mover-se duas casas');
+//     break;
+
+//   default:
+//     console.log('Erro!')
+// }
+
+// concluido //
