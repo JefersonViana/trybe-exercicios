@@ -214,7 +214,7 @@
 
 // parte 10 //
 
-const salarioBruto = 3000;
+const salarioBruto = 7000;
 let salarioLiquido = 0;
 if (salarioBruto <= 1556.94) {
   salarioLiquido = salarioBruto - (salarioBruto * 8 / 100);
@@ -235,27 +235,27 @@ if (salarioBruto <= 1556.94) {
   if (salarioLiquido <= 1903.98) {
     console.log(salarioLiquido + ' Isento do imposto de renda parte 3');
   } else if (salarioLiquido >= 1903.99 && salarioLiquido <= 2826.65) {
-    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 7.5 / 100) - 142.80);
+    console.log(salarioLiquido = salarioLiquido - ((salarioLiquido * 7.5 / 100) - 142.80));
   } else if (salarioLiquido > 2826.65 && salarioLiquido <= 3751.05) {
-    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 15 / 100) - 354.80);
+    console.log(salarioLiquido = salarioLiquido - ((salarioLiquido * 15 / 100) - 354.80));
   } else if (salarioLiquido > 3751.05 && salarioLiquido <= 4664.68) {
-    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 22.5 / 100) - 636.13);
+    console.log(salarioLiquido = salarioLiquido - ((salarioLiquido * 22.5 / 100) - 636.13));
   } else {
-    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 27.5 / 100) - 869.13);
+    console.log(salarioLiquido = salarioLiquido - ((salarioLiquido * 27.5 / 100) - 869.13));
   }
 
 } else if (salarioBruto > 5189.82) {
-  salarioLiquido = salarioLiquido - 570.88;
+  salarioLiquido = salarioBruto - 570.88;
   if (salarioLiquido <= 1903.98) {
     console.log(salarioLiquido + ' Isento do imposto de renda parte 4');
   } else if (salarioLiquido >= 1903.99 && salarioLiquido <= 2826.65) {
-    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 7.5 / 100) - 142.80);
+    console.log(salarioLiquido = salarioLiquido - ((salarioLiquido * 7.5 / 100) - 142.80));
   } else if (salarioLiquido > 2826.65 && salarioLiquido <= 3751.05) {
-    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 15 / 100) - 354.80);
+    console.log(salarioLiquido = salarioLiquido - ((salarioLiquido * 15 / 100) - 354.80));
   } else if (salarioLiquido > 3751.05 && salarioLiquido <= 4664.68) {
-    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 22.5 / 100) - 636.13);
-  } else {
-    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 27.5 / 100) - 869.13);
+    console.log(salarioLiquido = salarioLiquido - ((salarioLiquido * 22.5 / 100) - 636.13));
+  } else if (salarioLiquido > 4664.68) {
+    console.log(salarioLiquido = salarioLiquido - ((salarioLiquido * 27.5 / 100) - 869.13));
   }
 }
 
