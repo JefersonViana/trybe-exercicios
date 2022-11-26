@@ -79,16 +79,13 @@
 // let valorRecebido = 169;
 
 
-// if (valorRecebido > 0 && (valorRecebido / 2) % 2 === 0) {
-//   console.log('positive');
-
-// } else if (valorRecebido === 2) {
+// if (valorRecebido > 0 && valorRecebido % 2 === 0) {
 //   console.log('positive');
 
 // } else if (valorRecebido > 0 && (valorRecebido / 2) % 2 > 0) {
 //   console.log('negative');
 
-// }else {
+// } else {
 //   console.log('zero');
 // }
 
@@ -178,6 +175,20 @@
 
 // } else {
 //   console.log('Digite um número, Por favor!')
+// }
+
+// concluido //
+
+// parte 8 //
+
+// const number1= 5;
+// const number2= 10;
+// const number3= 7;
+
+// if (number1 % 2 === 0 || number2 % 2 === 0 || number3 % 2 === 0 ) {
+//   console.log(true);
+// } else {
+//   console.log(false);
 // }
 
 // concluido //
