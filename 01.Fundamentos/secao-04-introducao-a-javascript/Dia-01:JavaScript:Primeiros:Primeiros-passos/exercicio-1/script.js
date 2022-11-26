@@ -192,3 +192,71 @@
 // }
 
 // concluido //
+
+
+// parte 9 //
+
+// const quantidadeDeProdutos = 1000;
+// const custoDoProduto = 35;
+// const impostoSobreOProduto = 25;
+// const custoTotal = custoDoProduto + ((custoDoProduto * impostoSobreOProduto) / 100);
+// const valorDeVenda = 50;
+// const lucroPorProduto = valorDeVenda - custoTotal;
+// const lucroDaEmpresa = lucroPorProduto * quantidadeDeProdutos;
+
+// if (custoDoProduto < 0 || valorDeVenda < 0 || quantidadeDeProdutos < 0 || impostoSobreOProduto < 0) {
+//   console.log('Erro!')
+// } else {
+//   console.log(lucroDaEmpresa);
+// }
+
+// concluido //
+
+// parte 10 //
+
+const salarioBruto = 3000;
+let salarioLiquido = 0;
+if (salarioBruto <= 1556.94) {
+  salarioLiquido = salarioBruto - (salarioBruto * 8 / 100);
+  if (salarioLiquido <= 1903.98) {
+    console.log(salarioLiquido + ' Isento do imposto de renda');
+  }
+
+} else if (salarioBruto > 1556.94 && salarioBruto <= 2594.92) {
+  salarioLiquido = salarioBruto - (salarioBruto * 9 / 100);
+  if (salarioLiquido <= 1903.98) {
+    console.log(salarioLiquido + ' Isento do imposto de renda parte 2');
+  } else if (salarioLiquido > 1903.98 && salarioLiquido <= 2826.65) {
+    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 7.5 / 100) - 142.80);
+  }
+
+} else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
+  salarioLiquido = salarioBruto - (salarioBruto * 11 / 100);
+  if (salarioLiquido <= 1903.98) {
+    console.log(salarioLiquido + ' Isento do imposto de renda parte 3');
+  } else if (salarioLiquido >= 1903.99 && salarioLiquido <= 2826.65) {
+    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 7.5 / 100) - 142.80);
+  } else if (salarioLiquido > 2826.65 && salarioLiquido <= 3751.05) {
+    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 15 / 100) - 354.80);
+  } else if (salarioLiquido > 3751.05 && salarioLiquido <= 4664.68) {
+    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 22.5 / 100) - 636.13);
+  } else {
+    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 27.5 / 100) - 869.13);
+  }
+
+} else if (salarioBruto > 5189.82) {
+  salarioLiquido = salarioLiquido - 570.88;
+  if (salarioLiquido <= 1903.98) {
+    console.log(salarioLiquido + ' Isento do imposto de renda parte 4');
+  } else if (salarioLiquido >= 1903.99 && salarioLiquido <= 2826.65) {
+    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 7.5 / 100) - 142.80);
+  } else if (salarioLiquido > 2826.65 && salarioLiquido <= 3751.05) {
+    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 15 / 100) - 354.80);
+  } else if (salarioLiquido > 3751.05 && salarioLiquido <= 4664.68) {
+    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 22.5 / 100) - 636.13);
+  } else {
+    console.log(salarioLiquido = salarioLiquido - (salarioLiquido * 27.5 / 100) - 869.13);
+  }
+}
+
+// concluido //
