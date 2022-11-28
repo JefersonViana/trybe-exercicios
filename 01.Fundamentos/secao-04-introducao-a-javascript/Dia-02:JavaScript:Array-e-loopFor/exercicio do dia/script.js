@@ -1,3 +1,3 @@
-let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
-
-console.log(tasksList.length);
+for(let index = 0; index < 10; index+=1 ){
+  console.log(index);
+}
