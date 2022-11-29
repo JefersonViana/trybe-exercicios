@@ -6,11 +6,11 @@
 
 // console.log(fatorial);
 
-let word = 'tryber';
-let reverseWord = '';
+// let word = 'tryber';
+// let reverseWord = '';
 
-for (let index = 0; index < word.length; index += 1) {
-  reverseWord += word[word.length - 1 - index];
-}
+// for (let index = 0; index < word.length; index += 1) {
+//   reverseWord += word[word.length - 1 - index];
+// }
 
-console.log(reverseWord);
+// console.log(reverseWord);
