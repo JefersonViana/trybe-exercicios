@@ -1,16 +1,43 @@
-// let fatorial = 1;
+// parte 1 //
 
-// for (let index = 10; index > 0; index -= 1) {
-//   fatorial *= index;
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
+
+// let biggerWord = array[0];
+// let smallerWord = array[0];
+
+// for(let index = 0; index < array.length; index += 1) {
+//     if(array[index].length > biggerWord.length) {
+//         biggerWord = array[index];
+//     } else if(array[index].length < smallerWord.length) {
+//         smallerWord = array[index];
+//     }
 // }
 
-// console.log(fatorial);
+// console.log(biggerWord);
+// console.log(smallerWord);
 
-// let word = 'tryber';
-// let reverseWord = '';
+///////////////////
 
-// for (let index = 0; index < word.length; index += 1) {
-//   reverseWord += word[word.length - 1 - index];
+
+// parte 2 ///
+
+
+// let primoMaior = 0;
+
+// for(let index = 3; index < 50; index += 1) {
+//     let cont = 0;
+//     for(let indexDois = index; indexDois > 2; indexDois -= 1){
+//         if(index % indexDois === 0){
+//             cont += 1;
+//         }
+//     }
+//     if(cont == 1){
+//         if(index > primoMaior){
+//             primoMaior = index;
+//         }
+//     }
 // }
 
-// console.log(reverseWord);
+// console.log(primoMaior);
+
+/////////////////
