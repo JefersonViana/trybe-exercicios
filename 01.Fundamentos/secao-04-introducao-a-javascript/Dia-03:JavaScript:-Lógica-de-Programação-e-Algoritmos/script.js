@@ -41,3 +41,18 @@
 // console.log(primoMaior);
 
 /////////////////
+
+// Exercicios Bonus ///
+
+// let n = 5;
+// let result = '';
+
+// for (let index = n; index > 0; index -=1) {
+//   result += '*';
+
+// }
+
+// console.log(result);
+
+
+////////////
