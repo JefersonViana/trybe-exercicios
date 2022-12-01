@@ -140,8 +140,3 @@
 // console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata');
 
 // FIM DE OBJETOS ///
-
-// INICIO DE FOR/IN E FOR/OF //
-
-
-
