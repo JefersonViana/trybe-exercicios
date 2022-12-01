@@ -47,12 +47,38 @@
 // let n = 5;
 // let result = '';
 
+// var a = 0;
+// let b = 0;
+// const c = 0;
+
 // for (let index = n; index > 0; index -=1) {
 //   result += '*';
-
+//   for (let index1 = 0; index1 < n; index1 +=1) {
+//     result += ' ';
+//   }
+//   console.log(result);
 // }
 
-// console.log(result);
+// console.log(result)
+
 
 
 ////////////
+
+// let n = 5;
+// let result = '';
+// let cont = 1;
+
+// for(let index = n; index > 0; index -= 1){
+//     for(let index1 = n ; index1 > 0; index1 -= 1){
+//         if(index1 > cont){
+//             result = result + ' ';
+//         } else {
+//             result = result + '*';
+//         }
+//     }
+//     console.log(result);
+//     cont += 1;
+//     result = '';
+// }
+
