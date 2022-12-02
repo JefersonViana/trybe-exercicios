@@ -282,3 +282,84 @@
 
 // parte 6 //
 
+
+// exercicio 1 //
+
+// function imprimeIdade() {
+//   for (let idade = 30; idade <= 40; idade += 1) {
+//     console.log('Idade dentro do for:', idade)
+//   }
+  
+// }
+// imprimeIdade()
+
+// exercicio 2 //
+
+// Executando esse código iremos receber um erro `TypeError: Assignment to constant variable.`
+//  const pessoa = {
+//   nome: 'Henri',
+//   idade: 20
+// }
+// pessoa.nome = 'Luna';
+//   pessoa.idadeidade = 19;
+//  // Altere essa estrutura para corrigir o erro.
+// console.log('Nome:', pessoa.nome);
+// console.log('Idade:', pessoa.idade);
+
+// exercicio 3 //
+
+// let favoriteFood = 'Lasanha';
+// favoriteFood = 'Hamburguer';
+// console.log(favoriteFood);
+
+// exercicio 4 //
+
+// const name = 'Adriana';
+// const lastName = 'Soares';
+// console.log('Olá' + ',' + name + ' ' + lastName + '!');
+// function soma(a,b) {
+//   let resultado = a + b;
+//   return resultado;
+// }
+// let a = 3;
+// let b = 5;
+// console.log(`O resultado da soma de ${a} ${b} é: ${soma(a,b)}`);
+
+// exercicio 5 //
+
+// const numeroAleatorio = () => Math.floor(Math.random() * 100);
+
+// console.log(numeroAleatorio());
+
+// exercicio 6 //
+
+// const hello = () => `Olá, ${nome}!`;
+// let nome = 'Ivan';
+// console.log(hello());
+
+// exercicio 7 //
+
+// function nomeCompleto(nome, sobrenome) {
+//   return `${nome} ${sobrenome}`
+// }
+
+// const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`;
+// let nome = 'Ivan';
+// let sobrenome = 'Pires';
+// console.log(nomeCompleto('jeferson', 'Eduardo'));
+
+// exercicio 8 //
+
+// let speed = 90;
+// const speedCar = (speed) => {
+//   if (speed >= 120) {
+//     return `Você ultrapassou o limite de velocidade`;
+//   } else {
+//     return `Você está na velocidade permitida`;
+//   }
+// };
+// console.log(speedCar(speed));
+
+// let speed = 90;
+// const speedCar = speed >= 120 ? 'Você ultrapassou o limite de velocidade': 'Você está na velocidade permitida';
+// console.log(speedCar);
