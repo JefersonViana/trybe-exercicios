@@ -1,54 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Exercício</title>
-    
-    <style>
-      main, section {
-        border-color: black;
-        border-style: solid;
-      }
 
-      .title {
-        text-align: center;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício</title>
 
-      .main-content {
-        background-color: yellow;
-      }
-
-      .main-content .center-content {
-        background-color: red;
-        width: 50%;
-        margin: 0 auto;
-      }
-
-      .main-content .center-content p {
-        font-style: italic;
-      }
-    </style>
-  </head>
-  <body>
-    <header> 
-      <h1 class="title">Desafio - JavaEscripito</h1>
-    </header>    
-    <main class="main-content">
-      <section class="center-content">
-        <p>Texto padrão do nosso site</p>
-        <p>-----</p>
-        <p>Trybe</p>
-      </section>
-    </main>
-    <script>
-      function mude (paragrafo) {
-       let trocarPara = document.getElementsByTagName("p")[1];
-       trocarPara.innerHTML = paragrafo;
-
+  <style>
+    main,
+    section {
+      border-color: black;
+      border-style: solid;
     }
-    mude('Funcionou Michel!!');
-    mude('bla, bla, bla');
-    </script>
-  </body>
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Desafio - JavaEscripito</h1>
+  </header>
+  <main class="main-content">
+    <section class="center-content">
+      <p>Texto padrão do nosso site</p>
+      <p>-----</p>
+      <p>Trybe</p>
+    </section>
+  </main>
+  <script>
+    function mude(paragrafo) {
+      let trocarPara = document.getElementsByTagName("p")[1];
+      trocarPara.innerHTML = paragrafo;
+    }
+    mude('Daqui dois anos me vejo na função pleno com boas certificações!!');
+
+    function mudaCorYellow(cor) {
+      let yellow = document.getElementsByClassName('main-content')[0];
+      yellow.style.background = cor;
+    }
+    mudaCorYellow('rgb(76,164,109)');
+
+    function mudaCorRed(cor1) {
+      let red = document.getElementsByClassName('center-content')[0];
+      red.style.background = cor1;
+    }
+    mudaCorRed('white');
+
+    function nome(correcao) {
+      let titulo = document.getElementsByTagName('h1')[0];
+      titulo.innerText = correcao;
+    }
+    nome('Desafio - JavaScript');
+
+    function modifique() {
+      let maiusculo = document.getElementsByTagName('p')[0];
+      maiusculo.innerText = maiusculo.innerText.toUpperCase();
+    }
+    modifique();
+
+    function exibicao() {
+      let paragrafos = document.getElementsByTagName('p');
+      for (let index = 0; index < paragrafos.length; index += 1) {
+        console.log(paragrafos[index].innerHTML);
+      }
+    }
+    exibicao();
+
+  </script>
+</body>
+
 </html>
