@@ -1,16 +1,19 @@
-// Acesse o elemento elementoOndeVoceEsta.
-// Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
-// Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
-// Acesse o primeiroFilho a partir de pai.
-// Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta.
-// Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
-// Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
-// Agora acesse o terceiroFilho a partir de pai.
+const elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
 
-let ondeEstou = document.getElementById("elementoOndeVoceEsta");
-
-let voltandoAoPai = ondeEstou.parentElement;
-voltandoAoPai.style.color = "blue";
-
-let primeiroFilho = document.getElementById("primeiroFilhoDoFilho");
-
+const pai = elementoOndeVoceEsta.parentElement;
+pai.style.color = 'blue';
+pai.style.fontSize = '50px'
+console.log(pai);
+const primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
+primeiroFilhoDoFilho.innerText = 'Estou entendendo!';
+console.log(primeiroFilhoDoFilho);
+const primeiroFilho = pai.firstElementChild;
+console.log(primeiroFilho);
+const primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
+console.log(primeiroFilho2);
+const textElement = elementoOndeVoceEsta.nextSibling;
+console.log(textElement);
+const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+console.log(terceiroFilho);
+const terceiroFilho2 = pai.lastElementChild.previousElementSibling;
+console.log(terceiroFilho2);
