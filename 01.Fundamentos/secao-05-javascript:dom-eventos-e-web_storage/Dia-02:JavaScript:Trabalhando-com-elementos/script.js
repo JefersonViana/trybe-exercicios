@@ -1,12 +1,14 @@
 let bodyFather = document.getElementById("corpo");
 let h1FilhoDeBody = document.createElement('h1');
 bodyFather.appendChild(h1FilhoDeBody);
-h1FilhoDeBody.id = 'title'
+h1FilhoDeBody.id = 'title';
+h1FilhoDeBody.className = 'title';
 h1FilhoDeBody.innerText = 'TrybeTrip - Agência de Viagens';
 
 let mainSonBody = document.createElement('main');
 bodyFather.appendChild(mainSonBody);
 mainSonBody.className = 'main-content';
+mainSonBody.style.background = 'green'
 
 let mainFather = document.getElementsByClassName('main-content')[0];
 let sectionSonMain1 = document.createElement('section');
@@ -49,6 +51,14 @@ function createSubTitle(number) {
     let h3SonFromMain = document.createElement('h3');
     mainFather.appendChild(h3SonFromMain);
     h3SonFromMain.innerText = 'Deu certo!'
+    h3SonFromMain.className = 'description';
   }
 }
 createSubTitle(3);
+
+mainSonBody.removeChild(son1FromSection2);
+let li10 = document.getElementsByTagName('ul')[0].lastElementChild;
+let paiDasLis = document.getElementsByTagName('ul')[0];
+paiDasLis.removeChild(li10);
+let li9 = document.getElementsByTagName('ul')[0].lastElementChild;
+paiDasLis.removeChild(li9);
