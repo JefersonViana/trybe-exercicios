@@ -29,3 +29,19 @@ const createDaysTheMonth = () => {
 }
 
 createDaysTheMonth();
+
+const holiday1 = document.getElementsByClassName('day')[25];
+const holiday2 = document.getElementsByClassName('day')[26];
+const holiday3 = document.getElementsByClassName('day')[32];
+holiday1.className = 'day holiday';
+holiday2.className = 'day holiday';
+holiday3.className = 'day holiday';
+
+const friday1 = document.getElementsByClassName('day')[5];
+const friday2 = document.getElementsByClassName('day')[12];
+const friday3 = document.getElementsByClassName('day')[19];
+const friday4 = document.getElementsByClassName('day')[26];
+friday1.className = 'day friday';
+friday2.className = 'day friday';
+friday3.className = 'day friday';
+friday4.className = 'day holiday friday';
