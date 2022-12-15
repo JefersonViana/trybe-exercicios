@@ -67,3 +67,61 @@ const backgroundColor = () => {
 
 const buttonId = document.getElementById("btn-holiday");
 buttonId.addEventListener('click', backgroundColor);
+
+const reverseBackgroundColor = () => {
+  const reverseBackgroundColor = document.getElementsByClassName('holiday');
+  for (let index = 0; index < reverseBackgroundColor.length; index += 1) {
+    const reverseNewColor = reverseBackgroundColor[index];
+    reverseNewColor.style.backgroundColor = 'rgb(238,238,238)';
+  }
+}
+
+buttonId.addEventListener('dblclick', reverseBackgroundColor);
+
+const buttonFriday = (botao) => {
+  const divButtonFriday = document.querySelector(".buttons-container");
+  const button = document.createElement('button');
+  button.innerHTML = botao;
+  button.id = "btn-friday";
+
+  divButtonFriday.appendChild(button);
+}
+
+buttonFriday('Sexta-feira');
+
+const fridayText = () => {
+  friday1.innerHTML = 'Sextouu';
+  friday2.innerHTML = 'Sextouu';
+  friday3.innerHTML = 'Sextouu';
+  friday4.innerHTML = 'Sextouu';
+}
+
+const fridayButton = document.getElementById("btn-friday");
+fridayButton.addEventListener('click', fridayText);
+
+const fridayNumber = () => {
+  friday1.innerHTML = '4';
+  friday2.innerHTML = '11';
+  friday3.innerHTML = '18';
+  friday4.innerHTML = '25';
+}
+fridayButton.addEventListener('dblclick', fridayNumber);
+
+const mouseOver = () => {
+  const day = document.querySelector('#days');
+  day.addEventListener('mouseover', (event) => {
+    event.target.style.fontSize = '30px';
+    event.target.style.fontWeight = '600';
+  });
+}
+
+const mouseOut = () => {
+  const day = document.querySelector('#days');
+  day.addEventListener('mouseout', (event) => {
+    event.target.style.fontSize = '20px';
+    event.target.style.fontWeight = '200';
+  });
+}
+
+mouseOver();
+mouseOut();
