@@ -56,3 +56,14 @@ const button = (botao) => {
 }
 
 button('Feriados');
+
+const backgroundColor = () => {
+  const holidayBackgroundColor = document.getElementsByClassName('holiday');
+  for (let index = 0; index < holidayBackgroundColor.length; index += 1) {
+    const newColor = holidayBackgroundColor[index];
+    newColor.style.backgroundColor = 'green';
+  }
+}
+
+const buttonId = document.getElementById("btn-holiday");
+buttonId.addEventListener('click', backgroundColor);
