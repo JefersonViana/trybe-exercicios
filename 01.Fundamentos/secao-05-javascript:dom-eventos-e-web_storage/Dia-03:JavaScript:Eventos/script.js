@@ -45,3 +45,14 @@ friday1.className = 'day friday';
 friday2.className = 'day friday';
 friday3.className = 'day friday';
 friday4.className = 'day holiday friday';
+
+const button = (botao) => {
+  const divButton = document.querySelector(".buttons-container");
+  const button = document.createElement('button');
+  button.innerHTML = botao;
+  button.id = "btn-holiday";
+
+  divButton.appendChild(button);
+}
+
+button('Feriados');
