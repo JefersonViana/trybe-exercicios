@@ -282,6 +282,92 @@
 
 // parte 6 //
 
+// const adicao = (a, b) => {
+//   const valorA = a;
+//   const valorB = b;
+//   return valorA + valorB;
+// }
+// console.log(adicao(5, 2));
+
+// const subtracao = (a, b) => {
+//   const valorA = a;
+//   const valorB = b;
+//   return valorA - valorB;
+// }
+// console.log(subtracao(5, 2));
+
+// const multiplicacao = (a, b) => {
+//   const valorA = a;
+//   const valorB = b;
+//   return valorA * valorB;
+// }
+// console.log(multiplicacao(5, 2));
+
+// const divisao = (a, b) => {
+//   const valorA = a;
+//   const valorB = b;
+//   return valorA / valorB;
+// }
+// console.log(divisao(5, 2));
+
+// const modulo = (a, b) => {
+//   const valorA = a;
+//   const valorB = b;
+//   return valorA % valorB;
+// }
+// console.log(modulo(5, 2));
+
+// const maiorEntreSi = (a, b) => {
+//   const valorA = a;
+//   const valorB = b;
+//   if (valorA > valorB) {
+//   return valorA;    
+//   } else {
+//     return valorB;
+//   }
+// }
+// console.log(maiorEntreSi(5, 6));
+
+// const maiorNumber = (a, b, c) => {
+//   const valorA = a;
+//   const valorB = b;
+//   const valorC = c;
+//   if (valorA > valorB && valorA > valorC) {
+//   return valorA;
+//   } else if (valorB > valorA && valorB > valorC) {
+//     return valorB;
+//   } else {
+//     return valorC;
+//   }
+// }
+// console.log(maiorNumber(5, 9, 9));
+
+// const verification = (number) => {
+//   if (number > 0) {
+//     return 'positive';
+//   } else if (number < 0) {
+//     return 'negative';
+//   } else {
+//     return 'zero';
+//   }
+// }
+// console.log(verification(-1));
+
+// const triangle = (a, b, c) => {
+//   const valor1 = a;
+//   const valor2 = b;
+//   const valor3 = c;
+//   let soma = valor1 + valor2 + valor3;
+//   if (valor1 < 0 || valor2 < 0 || valor3 < 0) {
+//     return 'Erro!'
+//   } else if (soma === 180) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(triangle(60, 55, 65));
 
 // exercicio 1 //
 
