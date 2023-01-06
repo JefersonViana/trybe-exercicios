@@ -540,3 +540,160 @@
 
 //                    LEITURAS DE OBJETOS
 
+
+// Acesse as chaves nome, sobrenome e titulo, 
+//que está dentro da chave livrosFavoritos, 
+//e faça um console.log no seguinte formato: 
+//“O livro favorito de Julia Pessoa se chama ‘O Pior Dia de Todos’”.
+
+// let leitor = {
+//   nome: 'Julia',
+//   sobrenome: 'Pessoa',
+//   idade: 21,
+//   livrosFavoritos: [
+//     {
+//       titulo: 'O Pior Dia de Todos',
+//       autor: 'Daniela Kopsch',
+//       editora: 'Tordesilhas',
+//     },
+//   ],
+// };
+
+// let nome = leitor.nome;
+// let lastName = leitor.sobrenome;
+// let title = leitor.livrosFavoritos[0].titulo;
+// let frase = nome + ' ' + lastName + ' ' + title;
+// console.log(`"O livro favorito de ${nome} ${lastName} se chama '${title}'"`);
+
+
+// Adicione um novo livro favorito na chave livrosFavoritos, 
+//que é um array. Atribua a essa chave um objeto contendo as 
+//seguintes informações:
+
+// let leitor = {
+//   nome: 'Julia',
+//   sobrenome: 'Pessoa',
+//   idade: 21,
+//   livrosFavoritos: [
+//     {
+//       titulo: 'O Pior Dia de Todos',
+//       autor: 'Daniela Kopsch',
+//       editora: 'Tordesilhas',
+//     },
+//   ],
+// };
+// leitor.livrosFavoritos[0].titulo = 'Harry Potter e o Prisioneiro de Azkaban';
+// leitor.livrosFavoritos[0].autor = 'JK Rowling';
+// leitor.livrosFavoritos[0].editora = 'Rocco';
+// console.log(leitor);
+
+//                         EXERCICIOS DE FUNÇÂO
+
+// Crie uma função que receba uma string e retorne true se for 
+//um palíndromo, ou false, se não for.
+
+// const verificaPalindrome = (param) => {
+//   let reverse = '';
+//   for (let index = param.length - 1; index >= 0; index -= 1) {
+//     reverse += param[index];
+//   }
+//   if (param === reverse) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// };
+// console.log(verificaPalindrome('carro'));
+
+//Crie uma função que receba um array de inteiros e retorne o 
+//índice do maior valor.
+
+
+// const numberHigher = (array) => {
+//   let startingPosition = array[0];
+//   let positionNumberHigher = 0;
+//   for (let index = 1; index < array.length; index += 1) {
+//     if (array[index] > startingPosition) {
+//       startingPosition = array[index];
+//       positionNumberHigher = index;
+//     }
+//   }
+//   return positionNumberHigher;
+// }
+// console.log(numberHigher([2, 3, 6, 7, 10, 1]));
+
+//Crie uma função que receba um array de inteiros e retorne o 
+//índice do menor valor.
+
+// const smallerNumber = (array) => {
+//   let startingPosition = array[0];
+//   let positionSmallerNumber = 0;
+//   for (let index = 1; index < array.length; index += 1) {
+//     if (array[index] < startingPosition) {
+//       startingPosition = array[index];
+//       positionSmallerNumber = index;
+//     }
+//   }
+//   return positionSmallerNumber;
+// }
+// console.log(smallerNumber([2, 4, 6, 7, 10, 0, -3]));
+
+//Crie uma função que receba um array de nomes e retorne o nome 
+//com a maior quantidade de caracteres.
+
+// const nameHigher = (array) => {
+//   let startingPosition = array[0];
+//   for (let index = 1; index < array.length; index += 1) {
+//     if (array[index].length > startingPosition.length) {
+//       startingPosition = array[index];
+//     }
+//   }
+//   return startingPosition;
+// }
+// console.log(nameHigher(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+
+//Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+
+// const repeatedNumber = (array) => {
+//   let numeroQueRepete = '';
+//   let count = 0;
+//   let count1 = 0;
+//   for (let index = 0; index < array.length; index += 1) {
+//     for (let secondIndex = 0; secondIndex < array.length; secondIndex += 1) {
+//       if (array[secondIndex] === array[index]) {
+//         count += 1;
+//       }
+//     }
+//     if (count > count1) {
+//       count1 = count;
+//       numeroQueRepete = array[index];
+//       count = 0;
+//     } else {
+//       count = 0;
+//     }
+//   }
+//   return numeroQueRepete;
+// }
+// console.log(repeatedNumber([2, 3, 2, 5, 8, 2, 3]));
+
+//Crie uma função que receba um número natural 
+//(número inteiro não negativo) N e retorne o somatório de todos os números de 1 até N.
+
+// const somaTotal = (n) => {
+//   let soma = 0;
+//   if (n > 0) {
+//     for (let index = n; index > 0; index -= 1) {
+//       soma += index;
+//     }
+//   } else {
+//     return 'Use somente numero pisitivo';
+//   }
+//   return soma;
+// }
+
+// console.log(somaTotal(8));
+
+//Crie uma função que receba uma string word e outra string ending. 
+//Verifique se a string ending é o final da string word. 
+//Considere que a string ending sempre será menor que a string word.
+
