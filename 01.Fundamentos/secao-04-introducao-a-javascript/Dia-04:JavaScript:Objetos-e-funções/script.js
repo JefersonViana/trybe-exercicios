@@ -605,6 +605,24 @@
 // };
 // console.log(verificaPalindrome('carro'));
 
+// Outra forma de resolver o exercício é utilizando os métodos split, 
+//reverse e join. Primeiro o método split transformará a string em um 
+//array onde cada posição será uma letra da string. Depois o método reverse 
+//fará o array ficar de trás pra frente. Em seguida o método join faz com 
+//que todo o array vire uma string novamente.
+
+// function verificaPalindrome(string) {
+//   let reverse = string.split('').reverse().join('');
+//   if (string === reverse) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(verificaPalindrome('arara'));
+// console.log(verificaPalindrome('desenvolvimento'));
+
 //Crie uma função que receba um array de inteiros e retorne o 
 //índice do maior valor.
 
@@ -619,6 +637,19 @@
 //     }
 //   }
 //   return positionNumberHigher;
+// }
+// console.log(numberHigher([2, 3, 6, 7, 10, 1]));
+
+// outra forma abaixo!
+
+// const numberHigher = (array) => {
+//   let startingPosition = 0;
+//   for (let index = 1; index < array.length; index += 1) {
+//     if (array[startingPosition] < array[index]) {
+//       startingPosition = index;
+//     }
+//   }
+//   return startingPosition;
 // }
 // console.log(numberHigher([2, 3, 6, 7, 10, 1]));
 
@@ -637,6 +668,19 @@
 //   return positionSmallerNumber;
 // }
 // console.log(smallerNumber([2, 4, 6, 7, 10, 0, -3]));
+
+// outra forma abaixo!
+
+// const smallerNumber = (array) => {
+//   let startingPosition = 0;
+//   for (let index = 1; index < array.length; index += 1) {
+//     if (array[startingPosition] > array[index]) {
+//       startingPosition = index;
+//     }
+//   }
+//   return startingPosition;
+// }
+// console.log(smallerNumber([2, 3, 6, 7, 10, 1, -3]));
 
 //Crie uma função que receba um array de nomes e retorne o nome 
 //com a maior quantidade de caracteres.
@@ -693,7 +737,35 @@
 
 // console.log(somaTotal(8));
 
+// outra forma abaixo !
+
+// const somaTotal = (n) => {
+//   let soma = 0;
+//     for (let index = n; index > 0; index -= 1) {
+//       soma += index;
+//     }
+//   return soma;
+// }
+
+// console.log(somaTotal(5));
+
 //Crie uma função que receba uma string word e outra string ending. 
 //Verifique se a string ending é o final da string word. 
 //Considere que a string ending sempre será menor que a string word.
+
+// const compatibilidade = (word, ending) => {
+//   let tamanho = word.length - 1;
+//   for (let index = ending.length - 1; index >= 0; index -= 1) {
+//     if (ending[index] === word[tamanho]) {
+//       tamanho -= 1;
+//       result = true;
+//     } else {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+// console.log(compatibilidade('joaofernando', 'fernando'));
+
 
